@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46810A88-5462-47BA-A992-7FE30121E14B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AE5C98D4-5745-4F27-BB03-06A4B2394182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoPlus", "src\TodoPlus\TodoPlus.csproj", "{5F89C513-9984-4F24-BE26-CB348EF87AF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoPlus.UnitTests", "tests\TodoPlus.UnitTests\TodoPlus.UnitTests.csproj", "{CA721009-0795-4624-9ABC-A7E689EE127E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F89C513-9984-4F24-BE26-CB348EF87AF1} = {46810A88-5462-47BA-A992-7FE30121E14B}
+		{CA721009-0795-4624-9ABC-A7E689EE127E} = {AE5C98D4-5745-4F27-BB03-06A4B2394182}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F89C513-9984-4F24-BE26-CB348EF87AF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F89C513-9984-4F24-BE26-CB348EF87AF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F89C513-9984-4F24-BE26-CB348EF87AF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F89C513-9984-4F24-BE26-CB348EF87AF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA721009-0795-4624-9ABC-A7E689EE127E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA721009-0795-4624-9ABC-A7E689EE127E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA721009-0795-4624-9ABC-A7E689EE127E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA721009-0795-4624-9ABC-A7E689EE127E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
