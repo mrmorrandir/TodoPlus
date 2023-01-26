@@ -1,11 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-using TodoPlus.Parsers.Files;
 using TodoPlus.Parsers.Projects;
 using TodoPlus.Parsers.Todos;
 
-namespace PS.TodoPlus
+namespace TodoPlus.Parsers.Files
 {
     public class TodoFileParser
     {
